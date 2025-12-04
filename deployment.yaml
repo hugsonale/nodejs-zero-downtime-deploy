@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: node-zero-downtime:v1
+        image: node-zero-downtime:v2
         ports:
         - containerPort: 3000
         readinessProbe:
